@@ -8,3 +8,11 @@ TypeScript is a superset of JavaScript that adds optional static type checking a
 
 ## Zustand
 Zustand is a lightweight state management library for React applications. It provides a simple and intuitive API for managing complex application state, allowing developers to easily create and update stateful data without the need for boilerplate code or complex configuration. Zustand leverages the React Hooks API, making it easy to integrate with existing React codebases. Additionally, it provides advanced features such as middleware and devtools for debugging and optimizing state management in production.
+
+### To clone a repository from GitHub, follow these steps:
+
+    Click on the green "Code" button on the right side of the page.
+    Copy the HTTPS or SSH link to the repository.
+    Open your terminal or command prompt and navigate to the directory where you want to clone the repository.
+    Type "git clone" followed by the repository link you copied in step 3 and press enter.
+    Wait for the repository to download and you're done! You should now have a local copy of the repository on your machine.
