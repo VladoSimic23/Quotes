@@ -1,0 +1,179 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btnBlue {
+  cursor: pointer;
+  background: #110d2f;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  color: white;
+  font-weight: 400;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.btnBlue:hover {
+  background: #0e0e94;
+}
+
+.borderBottom {
+  display: inline-block;
+  border-bottom: 2px solid green;
+  padding-bottom: 10px;
+}
+
+.margiMinus {
+  margin-left: -410px;
+}
+
+.showAuthors {
+  position: absolute;
+  z-index: -5;
+  top: 50px;
+  left: 50px;
+}
+
+.authors {
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+  background: #110d2f;
+  color: #c7c2c2;
+  padding: 30px;
+  max-width: 350px;
+  width: 100%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.authors button {
+  border: none;
+  padding: 2px 15px;
+}
+
+.authors ul {
+  padding: 0;
+}
+
+.authors ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.authors ul li span {
+  color: white;
+  margin-left: 10px;
+  background: grey;
+  padding: 2px 12px;
+  border-radius: 50%;
+}
+
+.pageNav {
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pageNav p {
+  line-height: 20px;
+  margin: 5px 0;
+}
+
+.pageNav button {
+  cursor: pointer;
+}
+
+.activeAuthor {
+  background: green;
+}
+
+.hideSidebar {
+  cursor: pointer;
+  position: absolute;
+  font-size: 25px;
+  top: 0;
+  right: 30px;
+  font-size: 16px;
+}
+
+.underline {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 15px 0 20px 0;
+}
+
+.quotes {
+  max-width: 600px;
+  margin: 150px auto 0 auto;
+  padding: 0 30px;
+}
+
+.btn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.quote2 {
+  position: relative;
+  z-index: 10;
+}
+
+.quote {
+  position: relative;
+  z-index: 10;
+}
+
+.quote::before {
+  content: "";
+  left: -65px;
+  top: -30px;
+  background-image: url("../../public/quote.svg");
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  z-index: -10;
+  background-size: contain;
+}
+
+.quote span {
+  position: relative;
+}
+
+.quote span::after {
+  content: "";
+  background-image: url("../../public/quote.svg");
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  z-index: -10;
+  rotate: 180deg;
+  right: -65px;
+  bottom: -40px;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 768px) {
+  .quote::before {
+    top: -50px;
+    left: -15px;
+  }
+  .quote span::after {
+    right: -20px;
+    bottom: -60px;
+  }
+}
+/*# sourceMappingURL=styles.module.css.map */
