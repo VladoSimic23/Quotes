@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app),  [Zustand](https://github.com/pmndrs/zustand), [Typescript](https://www.typescriptlang.org/).
 
+## Site URL
+https://vsimic-quotes.netlify.app/
+
 ## Next JS
 Next.js is a React-based framework that provides a set of tools and features for building server-side rendered (SSR) web applications. It simplifies the process of creating complex React applications by providing features such as automatic code splitting, server-side rendering, static site generation, and optimized performance. Additionally, it supports a wide range of plugins and integrations, making it a popular choice for building production-ready web applications.
 
