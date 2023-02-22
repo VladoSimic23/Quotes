@@ -19,10 +19,10 @@ Zustand is a lightweight state management library for React applications. It pro
 
 ### To clone a repository from GitHub, follow these steps:
 
-1. Copy the HTTPS or SSH link to the repository.
-2. Open your terminal or command prompt and navigate to the directory where you want to clone the repository.
-3. Type "git clone" followed by the repository link you copied in step 2 and press enter.
-4. Wait for the repository to download and you're done! You should now have a local copy of the repository on your machine.
+  1. Copy the HTTPS or SSH link to the repository.
+  2. Open your terminal or command prompt and navigate to the directory where you want to clone the repository.
+  3. Type "git clone" followed by the repository link you copied in step 2 and press enter.
+  4. Wait for the repository to download and you're done! You should now have a local copy of the repository on your machine.
 
 npm run dev - to run dev server
 
