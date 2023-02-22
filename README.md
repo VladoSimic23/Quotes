@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app),  [Zustand](https://github.com/pmndrs/zustand), [Typescript](https://www.typescriptlang.org/) and [Firebase](https://firebase.google.com/?gclid=CjwKCAiAl9efBhAkEiwA4TorigCFgtqitBu_w8ROWEk2reMTrSpZTpmVmoNgOt1EpZ9eidHXz_lgehoCrtwQAvD_BwE&gclsrc=aw.ds).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app),  [Zustand](https://github.com/pmndrs/zustand), [Typescript](https://www.typescriptlang.org/).
 
 ## Site URL
 https://vsimic-quotes.netlify.app/
