@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [create-next-
 https://vsimic-quotes.netlify.app/
 
 ## API
-This project is using (DummyJSON)[https://dummyjson.com/]
+This project is using [DummyJSON](https://dummyjson.com/)
 DummyJSON is a tool that generates realistic-looking placeholder data in various formats such as JSON, CSV, SQL, and more. It's useful for creating mock data for testing and development purposes. The generated data can be customized by using templates and options to match specific data requirements.
 
 ## Next JS
