@@ -24,6 +24,8 @@ Zustand is a lightweight state management library for React applications. It pro
 3. Type "git clone" followed by the repository link you copied in step 2 and press enter.
 4. Wait for the repository to download and you're done! You should now have a local copy of the repository on your machine.
 
-npm run dev - to run dev server |||
-npm run build - to build |||
+npm run dev - to run dev server
+
+npm run build - to build 
+
 npm start - to start the production server
